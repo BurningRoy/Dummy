@@ -43,7 +43,7 @@ list.each {|x| puts x.succ}
 p list.map {|x| x.succ}
 #p ["H", "A", "L"].collect {|x| x.succ}
 
-f = File.open("test.txt")
+f = File.open("../test.txt")
 f.each_with_index do |line, index|
   puts "Line #{index+1}: #{line}"
 end

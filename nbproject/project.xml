@@ -5,7 +5,9 @@
         <data xmlns="http://www.netbeans.org/ns/ruby-project/1">
             <name>Dummy</name>
             <source-roots>
-                <root id="src.dir"/>
+                <root id="src.bin.dir"/>
+                <root id="src.dir" name="lib"/>
+                <root id="src.resources.dir"/>
             </source-roots>
             <test-roots>
                 <root id="test.src.dir"/>
