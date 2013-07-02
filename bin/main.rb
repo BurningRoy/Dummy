@@ -47,3 +47,4 @@ f = File.open("../resources/test.txt")
 f.each_with_index do |line, index|
   puts "Line #{index+1}: #{line}"
 end
+p "hoho"
